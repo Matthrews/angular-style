@@ -1,0 +1,30 @@
+/* The AOT compiler needs the `./` to show that this is local */
+@import './hero-details-box.css';
+
+
+:host {
+  font-style: italic;
+}
+
+:host {
+  font-style: italic;
+}
+
+:host(.active) {
+  font-weight: bold;
+}
+
+:host-context(.active) {
+  font-style: italic;
+}
+
+:host ::ng-deep h3 {
+  font-style: italic;
+}
+
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
